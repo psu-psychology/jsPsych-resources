@@ -1,0 +1,249 @@
+[
+	{
+		"rt": 1022.8800000040792,
+		"stimulus": "Welcome to the experiment. Press any key to begin.",
+		"key_press": 32,
+		"trial_type": "html-keyboard-response",
+		"trial_index": 0,
+		"time_elapsed": 1027,
+		"internal_node_id": "0.0-0.0"
+	},
+	{
+		"rt": 2787.969999946654,
+		"stimulus": "<p>In this experiment, a circle will appear in the center of the screen.</p><p>If the circle is <strong>blue</strong>, press the letter F on the keyboard as fast as you can.</p><p>If the circle is <strong>orange</strong>, press the letter J as fast as you can.</p><div style='width: 700px;'><div style='float: left;'><img src='img/blue.png'></img><p class='small'><strong>Press the F key</strong></p></div><div class='float: right;'><img src='img/orange.png'></img><p class='small'><strong>Press the J key</strong></p></div></div><p>Press any key to begin.</p>",
+		"key_press": 32,
+		"trial_type": "html-keyboard-response",
+		"trial_index": 1,
+		"time_elapsed": 3817,
+		"internal_node_id": "0.0-1.0"
+	},
+	{
+		"rt": null,
+		"stimulus": "<div style=\"font-size:60px;\">+</div>",
+		"key_press": null,
+		"test_part": "fixation",
+		"trial_type": "html-keyboard-response",
+		"trial_index": 2,
+		"time_elapsed": 6829,
+		"internal_node_id": "0.0-2.0-0.0"
+	},
+	{
+		"rt": 697.0699999947101,
+		"stimulus": "img/blue.png",
+		"key_press": 70,
+		"test_part": "test",
+		"correct_response": "f",
+		"trial_type": "image-keyboard-response",
+		"trial_index": 3,
+		"time_elapsed": 7528,
+		"internal_node_id": "0.0-2.0-1.0",
+		"correct": true
+	},
+	{
+		"rt": null,
+		"stimulus": "<div style=\"font-size:60px;\">+</div>",
+		"key_press": null,
+		"test_part": "fixation",
+		"trial_type": "html-keyboard-response",
+		"trial_index": 4,
+		"time_elapsed": 7783,
+		"internal_node_id": "0.0-2.0-0.1"
+	},
+	{
+		"rt": 578.7450000061654,
+		"stimulus": "img/orange.png",
+		"key_press": 74,
+		"test_part": "test",
+		"correct_response": "j",
+		"trial_type": "image-keyboard-response",
+		"trial_index": 5,
+		"time_elapsed": 8363,
+		"internal_node_id": "0.0-2.0-1.1",
+		"correct": true
+	},
+	{
+		"rt": null,
+		"stimulus": "<div style=\"font-size:60px;\">+</div>",
+		"key_press": null,
+		"test_part": "fixation",
+		"trial_type": "html-keyboard-response",
+		"trial_index": 6,
+		"time_elapsed": 8864,
+		"internal_node_id": "0.0-2.0-0.2"
+	},
+	{
+		"rt": 474.6049999957904,
+		"stimulus": "img/blue.png",
+		"key_press": 70,
+		"test_part": "test",
+		"correct_response": "f",
+		"trial_type": "image-keyboard-response",
+		"trial_index": 7,
+		"time_elapsed": 9339,
+		"internal_node_id": "0.0-2.0-1.2",
+		"correct": true
+	},
+	{
+		"rt": null,
+		"stimulus": "<div style=\"font-size:60px;\">+</div>",
+		"key_press": null,
+		"test_part": "fixation",
+		"trial_type": "html-keyboard-response",
+		"trial_index": 8,
+		"time_elapsed": 11092,
+		"internal_node_id": "0.0-2.0-0.3"
+	},
+	{
+		"rt": 509.7650000243448,
+		"stimulus": "img/orange.png",
+		"key_press": 74,
+		"test_part": "test",
+		"correct_response": "j",
+		"trial_type": "image-keyboard-response",
+		"trial_index": 9,
+		"time_elapsed": 11602,
+		"internal_node_id": "0.0-2.0-1.3",
+		"correct": true
+	},
+	{
+		"rt": null,
+		"stimulus": "<div style=\"font-size:60px;\">+</div>",
+		"key_press": null,
+		"test_part": "fixation",
+		"trial_type": "html-keyboard-response",
+		"trial_index": 10,
+		"time_elapsed": 13103,
+		"internal_node_id": "0.0-2.0-0.4"
+	},
+	{
+		"rt": 424.22499996609986,
+		"stimulus": "img/blue.png",
+		"key_press": 70,
+		"test_part": "test",
+		"correct_response": "f",
+		"trial_type": "image-keyboard-response",
+		"trial_index": 11,
+		"time_elapsed": 13528,
+		"internal_node_id": "0.0-2.0-1.4",
+		"correct": true
+	},
+	{
+		"rt": null,
+		"stimulus": "<div style=\"font-size:60px;\">+</div>",
+		"key_press": null,
+		"test_part": "fixation",
+		"trial_type": "html-keyboard-response",
+		"trial_index": 12,
+		"time_elapsed": 15032,
+		"internal_node_id": "0.0-2.0-0.5"
+	},
+	{
+		"rt": 399.83499998925254,
+		"stimulus": "img/orange.png",
+		"key_press": 74,
+		"test_part": "test",
+		"correct_response": "j",
+		"trial_type": "image-keyboard-response",
+		"trial_index": 13,
+		"time_elapsed": 15433,
+		"internal_node_id": "0.0-2.0-1.5",
+		"correct": true
+	},
+	{
+		"rt": null,
+		"stimulus": "<div style=\"font-size:60px;\">+</div>",
+		"key_press": null,
+		"test_part": "fixation",
+		"trial_type": "html-keyboard-response",
+		"trial_index": 14,
+		"time_elapsed": 15684,
+		"internal_node_id": "0.0-2.0-0.6"
+	},
+	{
+		"rt": 884.9449999979697,
+		"stimulus": "img/blue.png",
+		"key_press": 70,
+		"test_part": "test",
+		"correct_response": "f",
+		"trial_type": "image-keyboard-response",
+		"trial_index": 15,
+		"time_elapsed": 16570,
+		"internal_node_id": "0.0-2.0-1.6",
+		"correct": true
+	},
+	{
+		"rt": null,
+		"stimulus": "<div style=\"font-size:60px;\">+</div>",
+		"key_press": null,
+		"test_part": "fixation",
+		"trial_type": "html-keyboard-response",
+		"trial_index": 16,
+		"time_elapsed": 17822,
+		"internal_node_id": "0.0-2.0-0.7"
+	},
+	{
+		"rt": 352.09999996004626,
+		"stimulus": "img/orange.png",
+		"key_press": 74,
+		"test_part": "test",
+		"correct_response": "j",
+		"trial_type": "image-keyboard-response",
+		"trial_index": 17,
+		"time_elapsed": 18175,
+		"internal_node_id": "0.0-2.0-1.7",
+		"correct": true
+	},
+	{
+		"rt": null,
+		"stimulus": "<div style=\"font-size:60px;\">+</div>",
+		"key_press": null,
+		"test_part": "fixation",
+		"trial_type": "html-keyboard-response",
+		"trial_index": 18,
+		"time_elapsed": 19676,
+		"internal_node_id": "0.0-2.0-0.8"
+	},
+	{
+		"rt": 311.09499995363876,
+		"stimulus": "img/blue.png",
+		"key_press": 70,
+		"test_part": "test",
+		"correct_response": "f",
+		"trial_type": "image-keyboard-response",
+		"trial_index": 19,
+		"time_elapsed": 19987,
+		"internal_node_id": "0.0-2.0-1.8",
+		"correct": true
+	},
+	{
+		"rt": null,
+		"stimulus": "<div style=\"font-size:60px;\">+</div>",
+		"key_press": null,
+		"test_part": "fixation",
+		"trial_type": "html-keyboard-response",
+		"trial_index": 20,
+		"time_elapsed": 21493,
+		"internal_node_id": "0.0-2.0-0.9"
+	},
+	{
+		"rt": 316.09999999636784,
+		"stimulus": "img/orange.png",
+		"key_press": 74,
+		"test_part": "test",
+		"correct_response": "j",
+		"trial_type": "image-keyboard-response",
+		"trial_index": 21,
+		"time_elapsed": 21810,
+		"internal_node_id": "0.0-2.0-1.9",
+		"correct": true
+	},
+	{
+		"rt": 3457.1449999930337,
+		"stimulus": "<p>You responded correctly on 100% of the trials.</p><p>Your average response time was 495ms.</p><p>Press any key to complete the experiment. Thank you!</p>",
+		"key_press": 32,
+		"trial_type": "html-keyboard-response",
+		"trial_index": 22,
+		"time_elapsed": 25268,
+		"internal_node_id": "0.0-3.0"
+	}
+]

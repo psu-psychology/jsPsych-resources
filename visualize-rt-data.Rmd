@@ -1,0 +1,93 @@
+---
+title: "Visualize jsPsych RT Data"
+author: "Rick Gilmore"
+date: "`r Sys.time()`"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Purpose
+
+This document shows how to import a JSON file with data from the jsPsych simple RT experiment and to visualize the data using R.
+
+# Preliminaries
+
+We will need the `jsonlite` and `tidyverse` packages.
+
+```{r, install-pkgs}
+if (!require("jsonlite")) {
+  install.packages("jsonlite")
+}
+if (!require("tidyverse")) {
+  install.packages("tidyverse")
+}
+```
+
+# Import data
+
+The data file is in the root (".") directory of the repository.
+
+```{r}
+list.files(path = ".", pattern = "\\.json$")
+```
+
+Note that we specify a pattern string to limit the search to files that _end_ with `.json` by using the dollar sign (`$`) character.
+The pattern string is a [regular expression](https://en.wikipedia.org/wiki/Regular_expression).
+Regular expressions are amazingly powerful strings that control how the computer searches for and filters text.
+Rick thinks they are like the spells students at Hogwarts used to learn.
+He is in no way a Hermione, but you might want to aspire to that level of excellence.
+In regular expressions, characters like the period `.` take on different meanings depending on the context.
+Here, we want to *search* for a period in the file name, so we have to put two backslashes `\\` before the period `.` to make that work.
+
+Now, let's import the data file.
+
+```{r}
+file_name <- list.files(path = ".", pattern = "\\.json$")
+if (!is.null(file_name)) (rt_data <- jsonlite::read_json(file_name))
+```
+
+Ok, that worked but it's not a tidy data structure.
+
+```{r}
+str(rt_data)
+```
+
+The `jsonlite::fromJSON` command does a better job parsing the file.
+
+```{r}
+rt_data <- jsonlite::fromJSON(file_name)
+str(rt_data)
+```
+
+# Clean data
+
+We want all of the `test` trials where there was an `image-keyboard-response` as the trial type.
+
+```{r}
+rt_data_filtered <- rt_data %>%
+  dplyr::filter(., test_part == "test",
+          trial_type == "image-keyboard-response")
+```
+
+# Plot
+
+Here's a time series.
+
+```{r plot-rt-by-trial-stim-side}
+ggplot(rt_data_filtered) +
+  aes(x = trial_index, y = rt, color = stimulus, shape = as.factor(key_press)) +
+  geom_point() +
+  geom_line()
+```
+
+What happened on trial 15? Momentary lapse of some sort.
+
+We could make this prettier, but you get the point.
