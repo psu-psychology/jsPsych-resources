@@ -1,7 +1,7 @@
 ---
 title: "Visualize jsPsych RT Data"
 author: "Rick Gilmore"
-date: "2020-03-21 10:45:36"
+date: "2020-03-22 09:26:31"
 output: 
   html_document:
     toc: true
@@ -42,7 +42,7 @@ if (!require("tidyverse")) {
 ```
 
 ```
-## ── Attaching packages ─────────────────────────── tidyverse 1.3.0 ──
+## ── Attaching packages ───────────────────────────── tidyverse 1.3.0 ──
 ```
 
 ```
@@ -53,7 +53,7 @@ if (!require("tidyverse")) {
 ```
 
 ```
-## ── Conflicts ────────────────────────────── tidyverse_conflicts() ──
+## ── Conflicts ──────────────────────────────── tidyverse_conflicts() ──
 ## x dplyr::filter()  masks stats::filter()
 ## x purrr::flatten() masks jsonlite::flatten()
 ## x dplyr::lag()     masks stats::lag()
